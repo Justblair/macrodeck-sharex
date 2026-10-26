@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.macro-deck.app/plugin-manifest-v1.schema.json",
+  "manifestVersion": 1,
+  "id": "uk.justblair.sharex",
+  "name": "ShareX Plugin",
+  "version": "0.1.0",
+  "description": "Run ShareX captures, screen recordings, uploads, tools and workflows from Macro Deck buttons. Port of jbcarreon123's Macro Deck 2 ShareX plugin.",
+  "icon": "Assets/icon.svg",
+  "entrypoints": {
+    "win-x64": { "executable": "runtimes/win-x64/JustBlair.ShareX.dll", "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" } }
+  },
+  "publisher": {
+    "name": "Justblair"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Justblair/macrodeck-sharex",
+  "compatibility": {
+    "macroDeck": ">=3.0.0-0"
+  }
+}

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- The default-language file. Add a language by adding Localization/Strings.<culture>.resx beside it.
+       A dotted key becomes a nested class: Actions.Capture.Name is Strings.Actions.Capture.Name().
+       Tasks.* are ShareX's own English labels for its hotkey tasks, so buttons read the same as ShareX. -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions.Capture.Name" xml:space="preserve">
+    <value>Screenshot</value>
+  </data>
+  <data name="Actions.Capture.Description" xml:space="preserve">
+    <value>Take a screenshot with ShareX: the whole screen, a window, a monitor, a region or a scrolling capture.</value>
+  </data>
+  <data name="Actions.Record.Name" xml:space="preserve">
+    <value>Screen recording</value>
+  </data>
+  <data name="Actions.Record.Description" xml:space="preserve">
+    <value>Start, stop, pause or abort a ShareX screen recording, as video or GIF.</value>
+  </data>
+  <data name="Actions.Upload.Name" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Actions.Upload.Description" xml:space="preserve">
+    <value>Upload a file, a folder, the clipboard, text or a URL with ShareX, or shorten a URL.</value>
+  </data>
+  <data name="Actions.Tools.Name" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="Actions.Tools.Description" xml:space="preserve">
+    <value>Open one of ShareX's tools, such as the colour picker, OCR, the ruler or the image editor.</value>
+  </data>
+  <data name="Actions.General.Name" xml:space="preserve">
+    <value>App control</value>
+  </data>
+  <data name="Actions.General.Description" xml:space="preserve">
+    <value>Open ShareX windows and folders, turn its hotkeys on or off, or exit it.</value>
+  </data>
+  <data name="Actions.RunWorkflow.Name" xml:space="preserve">
+    <value>Run workflow</value>
+  </data>
+  <data name="Actions.RunWorkflow.Description" xml:space="preserve">
+    <value>Run one of your own ShareX hotkeys by name, with all the settings you gave it in ShareX.</value>
+  </data>
+  <data name="Fields.Task.Label" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="Fields.File.Label" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Fields.File.Description" xml:space="preserve">
+    <value>Optional. The file for the task to open or upload. Leave blank to choose it in ShareX.</value>
+  </data>
+  <data name="Fields.ShareXPath.Label" xml:space="preserve">
+    <value>ShareX location</value>
+  </data>
+  <data name="Fields.ShareXPath.Description" xml:space="preserve">
+    <value>Leave blank to find ShareX automatically. Set it for a portable copy of ShareX.</value>
+  </data>
+  <data name="Fields.Workflow.Label" xml:space="preserve">
+    <value>Hotkey name</value>
+  </data>
+  <data name="Fields.Workflow.Description" xml:space="preserve">
+    <value>The hotkey's description in ShareX's hotkey settings, exactly as written there, capitals included.</value>
+  </data>
+  <data name="Fields.Workflow.Placeholder" xml:space="preserve">
+    <value>Capture region to clipboard</value>
+  </data>
+  <data name="Errors.ShareXNotFound" xml:space="preserve">
+    <value>ShareX could not be found. Install it, start it once, or set its location on the button.</value>
+  </data>
+  <data name="Errors.ShareXPathInvalid" xml:space="preserve">
+    <value>There is no ShareX.exe at {path}.</value>
+    <comment>The location set on the button.</comment>
+  </data>
+  <data name="Errors.LaunchFailed" xml:space="preserve">
+    <value>ShareX could not be started.</value>
+  </data>
+  <data name="Errors.UnknownTask" xml:space="preserve">
+    <value>ShareX has no task called {task}.</value>
+    <comment>The task name stored on the button.</comment>
+  </data>
+  <data name="Errors.FileNotFound" xml:space="preserve">
+    <value>The file {path} does not exist.</value>
+  </data>
+  <data name="Migration.TaskReplaced" xml:space="preserve">
+    <value>ShareX no longer has {oldTask}; the button now uses {newTask} instead.</value>
+  </data>
+  <data name="Migration.TaskRemoved" xml:space="preserve">
+    <value>ShareX no longer has {oldTask}, so this button will report an error until you choose another task.</value>
+  </data>
+  <data name="Tasks.FileUpload" xml:space="preserve">
+    <value>Upload file</value>
+  </data>
+  <data name="Tasks.FolderUpload" xml:space="preserve">
+    <value>Upload folder</value>
+  </data>
+  <data name="Tasks.ClipboardUpload" xml:space="preserve">
+    <value>Upload from clipboard</value>
+  </data>
+  <data name="Tasks.ClipboardUploadWithContentViewer" xml:space="preserve">
+    <value>Upload from clipboard with content viewer</value>
+  </data>
+  <data name="Tasks.UploadText" xml:space="preserve">
+    <value>Upload text</value>
+  </data>
+  <data name="Tasks.UploadURL" xml:space="preserve">
+    <value>Upload from URL</value>
+  </data>
+  <data name="Tasks.DragDropUpload" xml:space="preserve">
+    <value>Drag and drop upload</value>
+  </data>
+  <data name="Tasks.ShortenURL" xml:space="preserve">
+    <value>Shorten URL</value>
+  </data>
+  <data name="Tasks.StopUploads" xml:space="preserve">
+    <value>Stop all active uploads</value>
+  </data>
+  <data name="Tasks.PrintScreen" xml:space="preserve">
+    <value>Capture entire screen</value>
+  </data>
+  <data name="Tasks.ActiveWindow" xml:space="preserve">
+    <value>Capture active window</value>
+  </data>
+  <data name="Tasks.CustomWindow" xml:space="preserve">
+    <value>Capture pre configured window</value>
+  </data>
+  <data name="Tasks.ActiveMonitor" xml:space="preserve">
+    <value>Capture active monitor</value>
+  </data>
+  <data name="Tasks.RectangleRegion" xml:space="preserve">
+    <value>Capture region</value>
+  </data>
+  <data name="Tasks.CustomRegion" xml:space="preserve">
+    <value>Capture pre configured region</value>
+  </data>
+  <data name="Tasks.LastRegion" xml:space="preserve">
+    <value>Capture last region</value>
+  </data>
+  <data name="Tasks.ScrollingCapture" xml:space="preserve">
+    <value>Start/Stop scrolling capture</value>
+  </data>
+  <data name="Tasks.AutoCapture" xml:space="preserve">
+    <value>Auto capture</value>
+  </data>
+  <data name="Tasks.StartAutoCapture" xml:space="preserve">
+    <value>Start auto capture using last region</value>
+  </data>
+  <data name="Tasks.StopAutoCapture" xml:space="preserve">
+    <value>Stop auto capture</value>
+  </data>
+  <data name="Tasks.ScreenRecorder" xml:space="preserve">
+    <value>Start/Stop screen recording</value>
+  </data>
+  <data name="Tasks.ScreenRecorderActiveWindow" xml:space="preserve">
+    <value>Start/Stop screen recording using active window region</value>
+  </data>
+  <data name="Tasks.ScreenRecorderCustomRegion" xml:space="preserve">
+    <value>Start/Stop screen recording using pre configured region</value>
+  </data>
+  <data name="Tasks.StartScreenRecorder" xml:space="preserve">
+    <value>Start/Stop screen recording using last region</value>
+  </data>
+  <data name="Tasks.ScreenRecorderGIF" xml:space="preserve">
+    <value>Start/Stop screen recording (GIF)</value>
+  </data>
+  <data name="Tasks.ScreenRecorderGIFActiveWindow" xml:space="preserve">
+    <value>Start/Stop screen recording (GIF) using active window region</value>
+  </data>
+  <data name="Tasks.ScreenRecorderGIFCustomRegion" xml:space="preserve">
+    <value>Start/Stop screen recording (GIF) using pre configured region</value>
+  </data>
+  <data name="Tasks.StartScreenRecorderGIF" xml:space="preserve">
+    <value>Start/Stop screen recording (GIF) using last region</value>
+  </data>
+  <data name="Tasks.StopScreenRecording" xml:space="preserve">
+    <value>Stop screen recording</value>
+  </data>
+  <data name="Tasks.PauseScreenRecording" xml:space="preserve">
+    <value>Pause screen recording</value>
+  </data>
+  <data name="Tasks.AbortScreenRecording" xml:space="preserve">
+    <value>Abort screen recording</value>
+  </data>
+  <data name="Tasks.ColorPicker" xml:space="preserve">
+    <value>Color picker</value>
+  </data>
+  <data name="Tasks.ScreenColorPicker" xml:space="preserve">
+    <value>Screen color picker</value>
+  </data>
+  <data name="Tasks.Ruler" xml:space="preserve">
+    <value>Ruler</value>
+  </data>
+  <data name="Tasks.MouseHighlighter" xml:space="preserve">
+    <value>Toggle mouse highlighter</value>
+  </data>
+  <data name="Tasks.PinToScreen" xml:space="preserve">
+    <value>Pin to screen</value>
+  </data>
+  <data name="Tasks.PinToScreenFromScreen" xml:space="preserve">
+    <value>Pin to screen (From screen)</value>
+  </data>
+  <data name="Tasks.PinToScreenFromClipboard" xml:space="preserve">
+    <value>Pin to screen (From clipboard)</value>
+  </data>
+  <data name="Tasks.PinToScreenFromFile" xml:space="preserve">
+    <value>Pin to screen (From file)</value>
+  </data>
+  <data name="Tasks.PinToScreenCloseAll" xml:space="preserve">
+    <value>Pin to screen (Close all)</value>
+  </data>
+  <data name="Tasks.ImageEditor" xml:space="preserve">
+    <value>Image editor</value>
+  </data>
+  <data name="Tasks.ImageBeautifier" xml:space="preserve">
+    <value>Image beautifier</value>
+  </data>
+  <data name="Tasks.ImageEffects" xml:space="preserve">
+    <value>Image effects</value>
+  </data>
+  <data name="Tasks.ImageViewer" xml:space="preserve">
+    <value>Image viewer</value>
+  </data>
+  <data name="Tasks.BackgroundRemover" xml:space="preserve">
+    <value>Background remover</value>
+  </data>
+  <data name="Tasks.ImageComparer" xml:space="preserve">
+    <value>Image comparer</value>
+  </data>
+  <data name="Tasks.IconConverter" xml:space="preserve">
+    <value>Icon converter</value>
+  </data>
+  <data name="Tasks.ImageCombiner" xml:space="preserve">
+    <value>Image combiner</value>
+  </data>
+  <data name="Tasks.ImageSplitter" xml:space="preserve">
+    <value>Image splitter</value>
+  </data>
+  <data name="Tasks.ImageResizer" xml:space="preserve">
+    <value>Image resizer</value>
+  </data>
+  <data name="Tasks.ImageConverter" xml:space="preserve">
+    <value>Image converter</value>
+  </data>
+  <data name="Tasks.ImageWatermark" xml:space="preserve">
+    <value>Image watermark</value>
+  </data>
+  <data name="Tasks.ImageThumbnailer" xml:space="preserve">
+    <value>Image thumbnailer</value>
+  </data>
+  <data name="Tasks.VideoConverter" xml:space="preserve">
+    <value>Video converter</value>
+  </data>
+  <data name="Tasks.VideoTrimmer" xml:space="preserve">
+    <value>Video trimmer</value>
+  </data>
+  <data name="Tasks.VideoThumbnailer" xml:space="preserve">
+    <value>Video thumbnailer</value>
+  </data>
+  <data name="Tasks.AnalyzeImage" xml:space="preserve">
+    <value>Analyze image</value>
+  </data>
+  <data name="Tasks.OCR" xml:space="preserve">
+    <value>OCR</value>
+  </data>
+  <data name="Tasks.QRCode" xml:space="preserve">
+    <value>QR code</value>
+  </data>
+  <data name="Tasks.QRCodeDecodeFromScreen" xml:space="preserve">
+    <value>QR code (Scan screen)</value>
+  </data>
+  <data name="Tasks.QRCodeScanRegion" xml:space="preserve">
+    <value>QR code (Scan region)</value>
+  </data>
+  <data name="Tasks.HashCheck" xml:space="preserve">
+    <value>Hash checker</value>
+  </data>
+  <data name="Tasks.Metadata" xml:space="preserve">
+    <value>Metadata</value>
+  </data>
+  <data name="Tasks.StripMetadata" xml:space="preserve">
+    <value>Strip metadata</value>
+  </data>
+  <data name="Tasks.IndexFolder" xml:space="preserve">
+    <value>Directory indexer</value>
+  </data>
+  <data name="Tasks.ClipboardViewer" xml:space="preserve">
+    <value>Clipboard viewer</value>
+  </data>
+  <data name="Tasks.BorderlessWindow" xml:space="preserve">
+    <value>Borderless window</value>
+  </data>
+  <data name="Tasks.ActiveWindowBorderless" xml:space="preserve">
+    <value>Make active window borderless</value>
+  </data>
+  <data name="Tasks.ActiveWindowTopMost" xml:space="preserve">
+    <value>Make active window top most</value>
+  </data>
+  <data name="Tasks.InspectWindow" xml:space="preserve">
+    <value>Inspect window</value>
+  </data>
+  <data name="Tasks.NetworkMonitor" xml:space="preserve">
+    <value>Network monitor</value>
+  </data>
+  <data name="Tasks.MonitorTest" xml:space="preserve">
+    <value>Monitor test</value>
+  </data>
+  <data name="Tasks.DisableHotkeys" xml:space="preserve">
+    <value>Disable/Enable hotkeys</value>
+  </data>
+  <data name="Tasks.OpenMainWindow" xml:space="preserve">
+    <value>Open main window</value>
+  </data>
+  <data name="Tasks.OpenScreenshotsFolder" xml:space="preserve">
+    <value>Open screenshots folder</value>
+  </data>
+  <data name="Tasks.OpenHistory" xml:space="preserve">
+    <value>Open history window</value>
+  </data>
+  <data name="Tasks.OpenImageHistory" xml:space="preserve">
+    <value>Open image history window</value>
+  </data>
+  <data name="Tasks.ToggleActionsToolbar" xml:space="preserve">
+    <value>Toggle actions toolbar</value>
+  </data>
+  <data name="Tasks.ToggleTrayMenu" xml:space="preserve">
+    <value>Toggle tray menu</value>
+  </data>
+  <data name="Tasks.ExitShareX" xml:space="preserve">
+    <value>Exit ShareX</value>
+  </data>
+  <data name="Tasks.AnimatedGifTrimmer" xml:space="preserve">
+    <value>Animated GIF trimmer</value>
+  </data>
+</root>
