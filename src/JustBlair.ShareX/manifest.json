@@ -1,9 +1,9 @@
-{
+﻿{
   "$schema": "https://schemas.macro-deck.app/plugin-manifest-v1.schema.json",
   "manifestVersion": 1,
   "id": "uk.justblair.sharex",
   "name": "ShareX Plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run ShareX captures, screen recordings, uploads, tools and workflows from Macro Deck buttons. Port of jbcarreon123's Macro Deck 2 ShareX plugin.",
   "icon": "Assets/icon.svg",
   "entrypoints": {
@@ -18,3 +18,4 @@
     "macroDeck": ">=3.0.0-0"
   }
 }
+
