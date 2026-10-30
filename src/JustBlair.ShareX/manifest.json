@@ -1,10 +1,10 @@
-﻿{
+{
   "$schema": "https://schemas.macro-deck.app/plugin-manifest-v1.schema.json",
   "manifestVersion": 1,
   "id": "uk.justblair.sharex",
   "name": "ShareX Plugin",
   "version": "0.1.2",
-  "description": "Run ShareX captures, screen recordings, uploads, tools and workflows from Macro Deck buttons. Port of jbcarreon123's Macro Deck 2 ShareX plugin.",
+  "description": "Run ShareX captures, screen recordings, uploads, tools and your own ShareX hotkeys from Macro Deck buttons. Windows only; needs ShareX installed, which the plugin finds by itself. Port of jbcarreon123's Macro Deck 2 ShareX plugin.",
   "icon": "Assets/icon.svg",
   "entrypoints": {
     "win-x64": { "executable": "runtimes/win-x64/JustBlair.ShareX.dll", "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" } }

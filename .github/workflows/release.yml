@@ -1,0 +1,22 @@
+name: Release
+
+# Publishing a GitHub release builds the plugin, runs its tests and the conformance suite, and uploads
+# the build to the Macro Deck Creator Portal. The version comes from the release tag (v0.1.3 -> 0.1.3),
+# and the release notes become the build's default changelog. No secrets: the upload authenticates
+# with the token GitHub issues for each run.
+# Reference: https://docs.macro-deck.app/creator-portal/release-workflow/
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    uses: Macro-Deck-App/GitHub-Actions/.github/workflows/publish-plugin.yml@v1
+    permissions:
+      contents: read
+      id-token: write
+    with:
+      version: ${{ github.event.release.tag_name }}
+      source: src/JustBlair.ShareX
+      changelog: ${{ github.event.release.body }}
