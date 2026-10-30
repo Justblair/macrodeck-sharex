@@ -163,3 +163,6 @@ local-feed/*
 # Built plugin packages
 artifacts/
 
+
+# Conformance reports from macrodeck-plugin test - regenerated on each run
+conformance.md
