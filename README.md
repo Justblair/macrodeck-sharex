@@ -7,6 +7,8 @@ This is a port of [jbcarreon123's ShareX plugin](https://github.com/jbcarreon123
 for Macro Deck 2, rewritten for the Macro Deck 3 out-of-process plugin SDK. Windows only, and ShareX
 must be installed.
 
+![A colour-coded ShareX folder in Macro Deck 3: rows of buttons for screenshots, screen recording, tools, uploads and ShareX itself](store/1-deck.png)
+
 ## Install
 
 Download the `.macroDeckPlugin` file from the [latest release](https://github.com/Justblair/macrodeck-sharex/releases/latest),
@@ -26,6 +28,10 @@ button. Task names are ShareX's own.
 | Tool | All 42 ShareX tools: colour pickers, ruler, OCR, QR codes, pin to screen, image editor, beautifier, effects, converters, video trimmer and the rest |
 | App control | Open the main window, history, image history or screenshots folder; toggle hotkeys, actions toolbar or tray menu; exit ShareX |
 | Run workflow | Any hotkey you have set up in ShareX, by its name, with all its own settings |
+
+![The six ShareX actions in Macro Deck's Add action dialog](store/3-actions.png)
+
+![Choosing a ShareX task for a Screenshot button](store/2-choose-task.png)
 
 Tasks that open a file (the image editor, OCR, pin to screen, upload file and others) take an optional
 file. Leave it blank to choose the file in ShareX.
