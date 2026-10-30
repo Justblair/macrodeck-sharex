@@ -3,7 +3,7 @@
   "manifestVersion": 1,
   "id": "uk.justblair.sharex",
   "name": "ShareX Plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Run ShareX captures, screen recordings, uploads, tools and workflows from Macro Deck buttons. Port of jbcarreon123's Macro Deck 2 ShareX plugin.",
   "icon": "Assets/icon.svg",
   "entrypoints": {

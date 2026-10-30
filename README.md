@@ -65,3 +65,9 @@ See [DEVELOPMENT.md](DEVELOPMENT.md) for building, debugging against Macro Deck 
 
 MIT. See [LICENSE](LICENSE). Original work copyright JB Carreon. ShareX is a separate project by its own
 authors and is not included.
+
+The plugin icon is the ShareX logo, copyright the ShareX Team, used with the permission of the ShareX
+project ([ShareX/ShareX#8921](https://github.com/ShareX/ShareX/issues/8921#issuecomment-6443678880)).
+It is taken unmodified from the official [ShareX brand assets](https://getsharex.com/brand-assets) and is
+not covered by this repository's MIT licence. This plugin is a community project and is not made or
+endorsed by the ShareX Team.
